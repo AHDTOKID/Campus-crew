@@ -1,0 +1,1 @@
+export default function NoticeDetails() { return null; } // inline in Notices

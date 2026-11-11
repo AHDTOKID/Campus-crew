@@ -1,0 +1,1 @@
+export default function CreatePost() { return null; } // composer lives in Feed page

@@ -1,0 +1,3 @@
+export const SERVICE_CATEGORIES = ['Web Development', 'Design', 'Video Editing', 'Tutoring', 'Writing', 'Photography', 'Other'];
+export const MARKET_CATEGORIES = ['Books', 'Laptops', 'Smartphones', 'Accessories', 'Calculators', 'Bicycles', 'Furniture', 'Clothing', 'Sports', 'Other'];
+export const NOTICE_CATEGORIES = ['Events', 'Hackathon', 'Workshop', 'Internship', 'Placement', 'Club', 'Sports', 'Lost & Found', 'General'];

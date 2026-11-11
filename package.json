@@ -1,0 +1,13 @@
+{
+    "name": "campus-crew",
+    "private": true,
+    "scripts": {
+        "install:all": "npm i --prefix server && npm i --prefix client",
+        "dev": "concurrently -n api,web -c cyan,magenta \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+        "seed": "npm run seed --prefix server",
+        "test": "npm test --prefix server && npm test --prefix client"
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.5"
+    }
+}
